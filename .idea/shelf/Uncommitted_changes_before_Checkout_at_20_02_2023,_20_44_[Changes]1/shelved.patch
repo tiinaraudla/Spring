@@ -1,0 +1,18 @@
+Index: src/main/java/org/sda/configuration/ApplicationConfiguration.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/org/sda/configuration/ApplicationConfiguration.java b/src/main/java/org/sda/configuration/ApplicationConfiguration.java
+new file mode 100644
+--- /dev/null	
++++ b/src/main/java/org/sda/configuration/ApplicationConfiguration.java	
+@@ -0,0 +1,8 @@
++package org.sda.configuration;
++
++/**
++ * @author Tiina Raudla
++ * @Date
++ */
++public class ApplicationConfiguration {
++}
