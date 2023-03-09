@@ -1,20 +1,18 @@
 package org.sda.beans;
 
-import org.sda.interfaces.BeanTitle;
+import org.sda.interfaces.BeanBookTitle;
 import org.springframework.stereotype.Component;
 
 /**
  * @author Tiina Raudla
  * @Date
  */
-@Component(value = "Title")
-public class BookTitle implements BeanTitle {
-    @lombok.Getter
-    private String bookTitle;
+@Component(value = "name")
+public class BookTitle implements BeanBookTitle {
+    private String name;
 
     public BookTitle() {
-        this.bookTitle = "Grace Kelly";
+        this.name = "Grace Kelly";
     }
-
 
 }

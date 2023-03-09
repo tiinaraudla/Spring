@@ -4,8 +4,8 @@ package org.sda.interfaces;
  * @author Tiina Raudla
  * @Date
  */
-public interface BeanTitle {
-    public static String getBookTitle() {
+public interface BeanBookTitle {
+    public static String getName() {
         return null;
     }
 }
